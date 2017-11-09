@@ -1,4 +1,3 @@
-
 # coding: utf-8
 
 # # Book and movie title generation with RNNs
@@ -22,7 +21,7 @@ from keras import __version__
 
 #from IPython.display import SVG
 #from keras.utils.vis_utils import model_to_dot
-
+import csv
 import numpy as np
 import random
 import sys
@@ -34,9 +33,16 @@ assert(LV(__version__) >= LV("2.0.0"))
 
 
 # Next, let's load our training data.  The data consists of movie and book titles originally downloaded from [here](https://github.com/markriedl/WikiPlots).  For our purposes, the data has been slightly modified to reduce the number of rare characters. 
-
-path = get_file('titles-translated', origin='https://kannu.csc.fi/s/Md68oCy6l62CuKC/download')
-text = open(path).read().lower()
+csvFile = "../train.csv"
+file = open(csvFile, "r")
+csvRead = csv.reader(file, delimiter=",")
+#path = get_file('titles-translated', origin='https://kannu.csc.fi/s/Md68oCy6l62CuKC/download')
+#text = open(path).read().lower()
+# #Read from titles first
+text = ""
+for row in csvRead:
+    s = str(row[0].lower()) + "\n"
+    text = text + s
 
 # This can be used to reduce the size of training data
 text = text[:500000]
