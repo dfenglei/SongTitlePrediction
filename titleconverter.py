@@ -9,10 +9,11 @@ def convert(f):
     file = open(csvFile, "r")
     csvRead = csv.reader(file, delimiter = ",")
     titlesList = []
+    lyrics = []
 
     for row in csvRead:
-        if row[0] != "text":
-            titlesList.append(row[0])
+        titlesList.append(row[0])
+        lyrics.append(row[3])
 
     newtitleslist = []
     for ii in range(0, len(titlesList)):
