@@ -13,7 +13,7 @@ def convert(f):
 
     for row in csvRead:
         titlesList.append(row[0])
-        lyrics.append(row[3])
+        lyrics.append(row[1])
 
     newtitleslist = []
     for ii in range(0, len(titlesList)):
