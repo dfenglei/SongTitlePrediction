@@ -36,8 +36,7 @@ assert(LV(__version__) >= LV("2.0.0"))
 csvFile = "../train.csv"
 file = open(csvFile, "r")
 csvRead = csv.reader(file, delimiter=",")
-#path = get_file('titles-translated', origin='https://kannu.csc.fi/s/Md68oCy6l62CuKC/download')
-#text = open(path).read().lower()
+
 # #Read from titles first
 text = ""
 for row in csvRead:
@@ -148,7 +147,7 @@ def sample(preds, temperature=1.0):
 lossv = []
 
 
-epochs = 30
+epochs = 100
 
 for iteration in range(0, epochs):
     print();print()
