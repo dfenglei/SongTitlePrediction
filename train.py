@@ -147,7 +147,7 @@ def sample(preds, temperature=1.0):
 lossv = []
 
 
-epochs = 100
+epochs = 300
 
 for iteration in range(0, epochs):
     print();print()
