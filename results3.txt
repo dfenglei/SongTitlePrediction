@@ -1,0 +1,4126 @@
+Using TensorFlow backend.
+Using Keras version: 2.0.8 backend: tensorflow
+
+Corpus length: 500000 lines: 30262
+First 10 lines: ['mother', 'the other man', 'maggie may', 'all i want for christmas is you', 'i have always loved you', 'dying on my feet', 'miss otis regrets', 'where the white boys dance', 'heartbeat', 'end of the line']
+
+Number of unique chars: 39
+['\n', ' ', '-', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+Number of sequences: 166664
+First 10 sequences and next chars:
+[mother
+the]:[ ]
+[her
+the ot]:[h]
+[
+the other]:[ ]
+[e other ma]:[n]
+[ther man
+m]:[a]
+[r man
+magg]:[i]
+[an
+maggie ]:[m]
+[maggie may]:[
+]
+[gie may
+al]:[l]
+[ may
+all i]:[ ]
+Vectorization...
+Size of X: 61.99 MB
+Size of y: 6.20 MB
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+lstm_1 (LSTM)                (None, 128)               86016     
+_________________________________________________________________
+dense_1 (Dense)              (None, 39)                5031      
+_________________________________________________________________
+activation_1 (Activation)    (None, 39)                0         
+=================================================================
+Total params: 91,047
+Trainable params: 91,047
+Non-trainable params: 0
+_________________________________________________________________
+None
+
+
+###### 0
+Epoch 1/1
+2017-11-27 18:10:42.063482: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2
+40s - loss: 2.2762
+
+----- Generating with diversity 0.2 seed: "arfisa bea"
+arfisa beat in the way the will your me
+i m i love in the way a me
+the will your me
+she s me the way s got i m
+----- Generating with diversity 0.5 seed: "arfisa bea"
+arfisa bean s do ma
+cay s the rester chire we the way buen way s me the mider me the morne
+i don t with on me
+
+----- Generating with diversity 1.0 seed: "arfisa bea"
+arfisa beating geel
+himmint in touin
+mbrosey
+sasing dice
+caster
+in fild the neger heast
+my day an the wich ree
+----- Generating with diversity 1.2 seed: "arfisa bea"
+arfisa bease
+masi
+aul arowhonel
+deevil hide mertor
+licender
+your reste
+
+ye if the shauthing ence
+i latteey try
+
+###### 1
+Epoch 1/1
+40s - loss: 1.8482
+
+----- Generating with diversity 0.2 seed: "
+melting p"
+
+melting party
+song to the want to the way
+i don t want to be and the way
+i don t get it heart
+back to be the 
+----- Generating with diversity 0.5 seed: "
+melting p"
+
+melting parity
+down to be
+never like appade
+i ll s not deep
+never to the crorl
+mile s be love
+love in the liv
+----- Generating with diversity 1.0 seed: "
+melting p"
+
+melting p ct comes to me
+waiting ingroll
+i d
+thing golsang chains
+i don t heaver
+beaul of the girl
+7hears car
+----- Generating with diversity 1.2 seed: "
+melting p"
+
+melting plomes
+cymanica
+you
+neqeett talcine
+it s who a coute
+back eway
+good le ope
+lock 4rot
+hay ands tilluen
+
+###### 2
+Epoch 1/1
+40s - loss: 1.7129
+
+----- Generating with diversity 0.2 seed: "bout a boy"
+bout a boy
+i m song
+the right to the light
+prays in the light
+can t come to the light
+i m a dream
+the rain
+com
+----- Generating with diversity 0.5 seed: "bout a boy"
+bout a boy
+baby blues
+back home
+love and free
+i love me 
+the  bean and the tear
+i ll can t have than still
+can
+----- Generating with diversity 1.0 seed: "bout a boy"
+bout a boybow and to deel telled live
+for don t dany
+nixed on me
+his my mone
+frot therarras
+dight aman and yea
+----- Generating with diversity 1.2 seed: "bout a boy"
+bout a boys
+crazy of je ol
+like a see
+face me wed
+i go endgy
+drigni glieed of anconnie
+detin ifture
+it s adsec
+
+###### 3
+Epoch 1/1
+40s - loss: 1.6362
+
+----- Generating with diversity 0.2 seed: "raises to "
+raises to be will the bells
+i ll be there
+i ll be the back
+holly one to love
+i ll be the stars
+the beath on th
+----- Generating with diversity 0.5 seed: "raises to "
+raises to mind
+the onler
+love with you
+wanted your sally heart in love
+it s goodbye
+only see s the beach
+home 
+----- Generating with diversity 1.0 seed: "raises to "
+raises to coofr
+you little gamento- walt
+holly on
+it s good
+chascaphon denter rock her
+big firstman
+in my sain
+----- Generating with diversity 1.2 seed: "raises to "
+raises to rezertionendown jecu
+who agense ance
+your m cottom huddy like adines
+barnancaped
+pand girl prayin is
+
+###### 4
+Epoch 1/1
+40s - loss: 1.5802
+
+----- Generating with diversity 0.2 seed: "r
+top hat "
+r
+top hat you love you anymore
+the world
+when the road
+i m so hands
+some of the world
+i m gonna be my head of 
+----- Generating with diversity 0.5 seed: "r
+top hat "
+r
+top hat the woman
+i m gonna be my heaven
+got the dreaming with you
+sending on the rain
+fly
+i love at the gre
+----- Generating with diversity 1.0 seed: "r
+top hat "
+r
+top hat broken
+last the falling free
+blind to your paotan
+moner
+brother bid
+bugn your some
+heardent with the
+----- Generating with diversity 1.2 seed: "r
+top hat "
+r
+top hat of e0vene fornsed
+man
+sach everyyes
+without you
+taffer
+mack money
+hot jost school just way
+m  jost
+w
+
+###### 5
+Epoch 1/1
+40s - loss: 1.5370
+
+----- Generating with diversity 0.2 seed: "d
+find my "
+d
+find my heart
+for the line
+ching of the world
+i m summer s tone
+so so baby
+someone s gone
+don t be the stree
+----- Generating with diversity 0.5 seed: "d
+find my "
+d
+find my baby
+don t you gone
+beauty up to me
+home in the eng
+holy good
+girl a little wonderful
+the smover
+mak
+----- Generating with diversity 1.0 seed: "d
+find my "
+d
+find my minda
+miver your waiting
+homeho it s dog
+i would heaven reamse
+anything gold rob moy
+love in the yem
+----- Generating with diversity 1.2 seed: "d
+find my "
+d
+find my dinamy a thangic saga
+blash in i wanna
+soushone moth the keacings
+alony on the lover geatlienstolens
+
+###### 6
+Epoch 1/1
+40s - loss: 1.5043
+
+----- Generating with diversity 0.2 seed: "u and me
+a"
+u and me
+a love in love
+something star
+beautiful don
+treaser of the black and the black man
+i m a little black
+----- Generating with diversity 0.5 seed: "u and me
+a"
+u and me
+all all the mountain
+she s gone
+mary last
+something in the bear of love
+black boot
+burning the world
+
+----- Generating with diversity 1.0 seed: "u and me
+a"
+u and me
+all a loce
+ravin 
+red side as batterblusade bulbe
+sunter monte
+autum
+up
+through beautiful
+where you a
+----- Generating with diversity 1.2 seed: "u and me
+a"
+u and me
+a can ll the i stad
+bartammeh
+inca -sour footin
+just wanting
+x-a
+throuway
+no awain letter better
+take
+
+###### 7
+Epoch 1/1
+40s - loss: 1.4760
+
+----- Generating with diversity 0.2 seed: "verse
+she "
+verse
+she s got to be cry
+i should you see you see you go
+don t say you don t say goodbye
+some for the blues
+i
+----- Generating with diversity 0.5 seed: "verse
+she "
+verse
+she s got a little man
+little down
+sand of the seaver
+the some of the world
+i love you
+take that battle
+
+----- Generating with diversity 1.0 seed: "verse
+she "
+verse
+she s moon
+pingal friend
+don t say the body
+this ond
+asers of the flower rad the mack to list
+let s gutl
+----- Generating with diversity 1.2 seed: "verse
+she "
+verse
+she kick
+high
+no outs
+loverman don t know om jesus aiddress
+lo soir hever
+span sarn little who 
+ the bou
+
+###### 8
+Epoch 1/1
+40s - loss: 1.4515
+
+----- Generating with diversity 0.2 seed: "et
+you ain"
+et
+you ain t heaven and place
+cross of the world
+i m all the world
+i want to be a star
+starding to the world
+a
+----- Generating with diversity 0.5 seed: "et
+you ain"
+et
+you ain t heaven and sands
+man song
+it s too something i wanta di the woman
+for love
+street me and but me
+g
+----- Generating with diversity 1.0 seed: "et
+you ain"
+et
+you ainother love s bright down
+only come
+sky boy
+sleided of ds you
+take my heart
+snow
+don t know
+all radio
+----- Generating with diversity 1.2 seed: "et
+you ain"
+et
+you ain t a sasted
+the moves
+issop and girls
+haddany trum
+good for live
+walse me any her eartoduss
+everybue
+
+###### 9
+Epoch 1/1
+40s - loss: 1.4311
+
+----- Generating with diversity 0.2 seed: " t take no"
+ t take not a little girl
+the stars of the world
+better than the long
+love in the end
+better than the monger
+s
+----- Generating with diversity 0.5 seed: " t take no"
+ t take now
+still s my night
+trick out of rest
+even love
+the time
+it s to the world
+i like you
+southone and dr
+----- Generating with diversity 1.0 seed: " t take no"
+ t take not song
+it s times
+white comb big
+priperoul
+i love me to change
+boand for abounte
+night friend
+unfolt
+----- Generating with diversity 1.2 seed: " t take no"
+ t take not i pie
+brendine
+mary
+stilit ya 
+big on the dads of the move
+madgerie
+pricood ou
+claugvumby
+doan of 
+
+###### 10
+Epoch 1/1
+40s - loss: 1.4122
+
+----- Generating with diversity 0.2 seed: " lyrics
+th"
+ lyrics
+the seed me
+the revolution of the sens
+let it the line
+come to you
+i don t want to be with you
+anythin
+----- Generating with diversity 0.5 seed: " lyrics
+th"
+ lyrics
+the girl in chain
+i m a song to me
+don t see my life
+i do on the sing
+connection me and if to help the
+----- Generating with diversity 1.0 seed: " lyrics
+th"
+ lyrics
+this is the flume god
+along man 
+differ the mama
+jumpie  right
+potong
+jody girl
+if a hallem
+off the sb
+----- Generating with diversity 1.2 seed: " lyrics
+th"
+ lyrics
+this tyilgay
+never
+jomake at one of a hly
+giel
+i love you
+udifoquile g-tver
+be musey yearon mert reali
+
+###### 11
+Epoch 1/1
+40s - loss: 1.3970
+
+----- Generating with diversity 0.2 seed: "ieve it or"
+ieve it or love
+a little thing
+baby s gone
+so say
+as the world
+all i can t stay baby
+heaven on my heart
+so so 
+----- Generating with diversity 0.5 seed: "ieve it or"
+ieve it or off
+back in the dark
+this is a monney
+inneright i m a stand
+again
+love s got a run
+wild in my heart
+----- Generating with diversity 1.0 seed: "ieve it or"
+ieve it ord
+sccand of the hind
+rose rung
+candy dom for the anymore
+nobody saltil
+one man
+walwain carty
+deepel
+
+----- Generating with diversity 1.2 seed: "ieve it or"
+ieve it or
+heavyn uldur
+he i feel to las
+that s  excues
+onlyrgirge
+have m  be
+the cay neft a 19
+ grusappy
+let 
+
+###### 12
+Epoch 1/1
+40s - loss: 1.3825
+
+----- Generating with diversity 0.2 seed: "aven for m"
+aven for me
+back to me
+and the stranger
+i d really day to the boy
+blue back
+bella
+goodbye
+angels and me
+the st
+----- Generating with diversity 0.5 seed: "aven for m"
+aven for me
+better to you
+secred the money
+only you want to be love
+last carnival time
+lonely so bittle child
+
+----- Generating with diversity 1.0 seed: "aven for m"
+aven for me
+key this love
+can t haturdey
+something in a mist ful
+baby baby
+the runstream it
+katmula deadon awa
+----- Generating with diversity 1.2 seed: "aven for m"
+aven for my tousht
+ail these plividy
+overkur say song
+sterd cithingpis  here
+fall about tog rockan
+skin gun
+ch
+
+###### 13
+Epoch 1/1
+40s - loss: 1.3702
+
+----- Generating with diversity 0.2 seed: "lly so str"
+lly so strange
+the stars of love
+i want the lady s to my heart
+the change
+the right to say goodbye
+say goodbye
+----- Generating with diversity 0.5 seed: "lly so str"
+lly so strong
+the portut
+i m all the world
+little like that love 
+a love me back
+ballad of man
+stand over
+sout
+----- Generating with diversity 1.0 seed: "lly so str"
+lly so streets
+day head my litts
+as tell you
+panis braxiom
+jesus the world
+god pel on  tratthers
+i believe ly 
+----- Generating with diversity 1.2 seed: "lly so str"
+lly so stree
+get out at the mas easy mes
+haba fell menight to staction skin leavik oin
+love a brown
+i went you
+
+###### 14
+Epoch 1/1
+40s - loss: 1.3583
+
+----- Generating with diversity 0.2 seed: "ckin  your"
+ckin  your heart
+forever thing
+i m a song
+i m a song
+i want to be friend
+a little believe in the ball
+baby bab
+----- Generating with diversity 0.5 seed: "ckin  your"
+ckin  your someone
+shine
+praise the ballad
+i m a don t get around
+i m another better to get you
+boy to lose
+th
+----- Generating with diversity 1.0 seed: "ckin  your"
+ckin  your hands  les a battlessomey
+way wantagesting the sun
+may if i don t trung can i do
+sailo
+leaving the 
+----- Generating with diversity 1.2 seed: "ckin  your"
+ckin  your todarches storpes  cold
+sulter dongimeder  new nimes someday
+hot an indiof countre i grovily
+blinge
+
+###### 15
+Epoch 1/1
+40s - loss: 1.3480
+
+----- Generating with diversity 0.2 seed: "ou believe"
+ou believe in love song
+have you ever not a little heart
+the word you want
+down to two
+i ll be there
+save the 
+----- Generating with diversity 0.5 seed: "ou believe"
+ou believe is sounds
+i ll be free
+i ll be there
+now somebody s gonna tell you ve got i hear christmas
+i ll cal
+----- Generating with diversity 1.0 seed: "ou believe"
+ou believe s now
+shown
+dreams
+by lifflly back hungmad song
+if i heard
+this way and my life
+i know i would free
+----- Generating with diversity 1.2 seed: "ou believe"
+ou believe i rone
+kid in fleetirs 
+we re myself
+the again
+me veitins
+right your new sanrith school ot powgoner
+
+###### 16
+Epoch 1/1
+40s - loss: 1.3378
+
+----- Generating with diversity 0.2 seed: "n in vain
+"
+n in vain
+the street
+a stars of the rivers the believe
+i don t want to be the moning
+love on the street
+i d go
+----- Generating with diversity 0.5 seed: "n in vain
+"
+n in vain
+dreamin  in love
+so close
+hole loved
+put your sail
+fature  baby
+sunday
+die  s white train
+i gotta ro
+----- Generating with diversity 1.0 seed: "n in vain
+"
+n in vain
+be yourself as me
+eacher agains for phark
+wick strongana blue head
+what soldier
+let hard the bullife
+----- Generating with diversity 1.2 seed: "n in vain
+"
+n in vain
+symples again
+robbery
+wild wiman
+a droam why
+regrody row plasges
+ede on
+pollaximahe
+king or joom
+tru
+
+###### 17
+Epoch 1/1
+40s - loss: 1.3279
+
+----- Generating with diversity 0.2 seed: "y money
+mi"
+y money
+mistake my heart
+the wall of my heart
+the golden two
+shot me way it s a stars
+i m gonna make love me
+t
+----- Generating with diversity 0.5 seed: "y money
+mi"
+y money
+mistake man
+strange big big
+how it war
+all is the world
+i never try seed a bring baby s gone
+stay with
+----- Generating with diversity 1.0 seed: "y money
+mi"
+y money
+milla clleder
+finamustiles
+goaded in one
+the head
+on the brown
+hold read
+egal in john and the wirk
+inn
+----- Generating with diversity 1.2 seed: "y money
+mi"
+y money
+micty is at time for love
+f-li--que198theron
+lullur  my
+and minestering 
+ride
+a by up greate up hit an
+
+###### 18
+Epoch 1/1
+40s - loss: 1.3203
+
+----- Generating with diversity 0.2 seed: "u much too"
+u much too stand
+i ll be me
+the rain the world
+a lot to be with the blues
+the way is a little believe
+i love y
+----- Generating with diversity 0.5 seed: "u much too"
+u much too long
+i love you and is for me
+can t be work
+in your heart
+can t stop the sheether don t feel love
+h
+----- Generating with diversity 1.0 seed: "u much too"
+u much too sun
+ominal angels
+vissing hide piggo
+long day be the wring s wonder
+a give line
+brestrower
+all as i
+----- Generating with diversity 1.2 seed: "u much too"
+u much too clamiged
+night to be to you ve ready
+ ramejoned
+come on got a tould
+changing pardous
+selcitive of t
+
+###### 19
+Epoch 1/1
+40s - loss: 1.3123
+
+----- Generating with diversity 0.2 seed: "sun s gonn"
+sun s gonna be the way
+my baby s got the day
+love s got the day
+love s got a long  do you wint
+the cold come
+c
+----- Generating with diversity 0.5 seed: "sun s gonn"
+sun s gonna fanshem
+somewhere is a long 
+complical of the seven s song
+no little town
+love in the star
+i know
+
+----- Generating with diversity 1.0 seed: "sun s gonn"
+sun s gonna pain s sister
+runaway
+opton on
+maso train
+love knows without a blow
+crowe
+rushesater
+let me strent
+----- Generating with diversity 1.2 seed: "sun s gonn"
+sun s gonna bail queenson i liceted
+it s gonna things fluge
+even i go
+woman archy
+i gut luke and druckin ant y
+
+###### 20
+Epoch 1/1
+40s - loss: 1.3039
+
+----- Generating with diversity 0.2 seed: " this way
+"
+ this way
+back to the sun
+the things of the stronger the world
+cryin  to the black lose you  the walls a littl
+----- Generating with diversity 0.5 seed: " this way
+"
+ this way
+crazy hold on
+restless wattar
+i m forever you good times
+just a long for a little blue
+she s so long
+----- Generating with diversity 1.0 seed: " this way
+"
+ this way
+a don t get you love me
+father s house
+flewer s nout in the section
+everything
+talker the whole at t
+----- Generating with diversity 1.2 seed: " this way
+"
+ this way
+gone in the skins
+hatern
+love
+trasting sublaw
+i can take your world
+i m begn
+how kerry
+just a lang
+c
+
+###### 21
+Epoch 1/1
+40s - loss: 1.2990
+
+----- Generating with diversity 0.2 seed: "ngers on  "
+ngers on   
+someone love
+i m a song
+crazy man
+don t be with the sun
+say goodbye
+how and you
+and i m an ance
+co
+----- Generating with diversity 0.5 seed: "ngers on  "
+ngers on  has the chisty man
+for the lear
+annister s a star
+shop and cry
+finge and forever
+a dreamin  in the s
+----- Generating with diversity 1.0 seed: "ngers on  "
+ngers on  heave me
+smay ways bange
+free
+upifor
+i ll seay gone like a lors
+take it umoria
+walkwam
+and in chying
+----- Generating with diversity 1.2 seed: "ngers on  "
+ngers on  i carvantor
+vetion
+just say you m readado
+privatiog nakile
+secfregs
+cin ontbell
+nuigone alove
+breaku
+
+###### 22
+Epoch 1/1
+40s - loss: 1.2918
+
+----- Generating with diversity 0.2 seed: "ou
+take yo"
+ou
+take you believe in my heart
+so heave me
+love is the season
+i can t be the red side
+i d read in my search
+i
+----- Generating with diversity 0.5 seed: "ou
+take yo"
+ou
+take you do
+i ll be your way
+o to my heart
+call of the body dark
+star of heart on you
+angel night
+can t dea
+----- Generating with diversity 1.0 seed: "ou
+take yo"
+ou
+take you don t never see ever by chiled
+o-chento cotqueerten
+someine in care
+makesuish young them we keek m
+----- Generating with diversity 1.2 seed: "ou
+take yo"
+ou
+take you scoennt from wish with stiled loving you
+pouting every thing lookin  we wish thkme kvamlagide
+secr
+
+###### 23
+Epoch 1/1
+40s - loss: 1.2867
+
+----- Generating with diversity 0.2 seed: "ng
+shake y"
+ng
+shake your life we die
+starter on the world
+bird of a star
+stand be a song
+free the stranger
+the start of l
+----- Generating with diversity 0.5 seed: "ng
+shake y"
+ng
+shake your near
+what i ain t to the heart
+for a can t take me back to me
+and the wind
+the sadin  the prison
+----- Generating with diversity 1.0 seed: "ng
+shake y"
+ng
+shake your save un ever goodnight it with the fire
+radiored
+back from walking
+outchermant like
+a new way yo
+----- Generating with diversity 1.2 seed: "ng
+shake y"
+ng
+shake your christmas
+in my strosge
+snowfates colm eyes
+meno chy sing
+culo upa
+poh-oh-dise song
+madfed
+clits
+
+###### 24
+Epoch 1/1
+40s - loss: 1.2803
+
+----- Generating with diversity 0.2 seed: " christmas"
+ christmas in the moon
+one day it hard to you
+the way i love you  all the world
+come on now
+i m a little belie
+----- Generating with diversity 0.5 seed: " christmas"
+ christmas song
+free
+briting getsh frighter
+a way
+out of town
+forever s the way
+out of anything
+pretty in me
+h
+----- Generating with diversity 1.0 seed: " christmas"
+ christmas
+a glora
+king of the young
+don t forever
+seard letter
+farewell
+mayor floimn me
+place teorgay logit f
+----- Generating with diversity 1.2 seed: " christmas"
+ christmas
+childror sh bird
+infeside devil
+it s a song
+down
+what it real mod on
+ride houses a gan
+if i don s l
+
+###### 25
+Epoch 1/1
+40s - loss: 1.2751
+
+----- Generating with diversity 0.2 seed: "eaven or h"
+eaven or heart
+startion for you
+the beautiful dream
+can t the way i m any day
+make me baby
+most to you
+and the
+----- Generating with diversity 0.5 seed: "eaven or h"
+eaven or heart
+spank come
+the moning
+love me the black
+far free
+hey bells
+the god grer
+death way a lover on an
+----- Generating with diversity 1.0 seed: "eaven or h"
+eaven or hym rima
+kick much s ride
+sabal don t man that you go 
+saturday neel the grosing in a beautiful you
+i
+----- Generating with diversity 1.2 seed: "eaven or h"
+eaven or heart eggecidagib
+thing sacry
+bus
+husslia
+jane but the man is ore
+chillist
+loniss
+rap i    
+irven  my
+
+###### 26
+Epoch 1/1
+40s - loss: 1.2702
+
+----- Generating with diversity 0.2 seed: " you wery "
+ you wery before
+i m a lonese
+the way out of my heart
+come back to me
+the best of the sun
+the children
+love is
+----- Generating with diversity 0.5 seed: " you wery "
+ you wery in the seas
+living in the stars
+in the sun
+the dreaming
+everytime and the cornemen
+love is a jolliou
+----- Generating with diversity 1.0 seed: " you wery "
+ you wery lebohes lie
+batters
+anwed dour
+every why
+now door
+feat to place
+don t want to be a like a merry boll
+----- Generating with diversity 1.2 seed: " you wery "
+ you wery from me
+hat a druqm
+cut down
+out of rose
+mits
+beil peasica
+hole silver cristin town
+fryend my tomorr
+
+###### 27
+Epoch 1/1
+40s - loss: 1.2666
+
+----- Generating with diversity 0.2 seed: "not breakd"
+not breakdon a man
+i ll steple
+far as i need the world
+the real
+children of the world
+i m not to you all the w
+----- Generating with diversity 0.5 seed: "not breakd"
+not breakdon a little waiting  the pop of the world
+just for love
+come on me   
+i m all over
+story back
+darkes
+----- Generating with diversity 1.0 seed: "not breakd"
+not breakdgeon
+cellacued
+someoator girl
+dimager of love
+f4-love
+sheepers s cruis
+the linevery entire comes
+som
+----- Generating with diversity 1.2 seed: "not breakd"
+not breakdonger
+togethere as readon ride
+m agoana runnin  again
+everything
+hopseangmanc
+will fane
+vis
+the way 
+
+###### 28
+Epoch 1/1
+40s - loss: 1.2629
+
+----- Generating with diversity 0.2 seed: "ot a crush"
+ot a crush on me
+all the way
+all the world
+the souths
+i ll show we re gonna man
+the sand of the world
+the stre
+----- Generating with diversity 0.5 seed: "ot a crush"
+ot a crush on me
+back the mountain
+american s what i can t believe in the dark and door
+let s new love
+for mem
+----- Generating with diversity 1.0 seed: "ot a crush"
+ot a crush me not better  petly kill namem
+as meclond
+someway
+love
+firt with faclent star
+my baby boy
+homele 
+
+----- Generating with diversity 1.2 seed: "ot a crush"
+ot a crushet last ways
+a don t coal would letter killing
+vermy ordi gree in the wide
+holly rud
+acrenteruleng h
+
+###### 29
+Epoch 1/1
+40s - loss: 1.2599
+
+----- Generating with diversity 0.2 seed: "lift high "
+lift high sick and made
+i m a long
+i ll be there
+stars back to you
+strange and a long
+i ll be there
+a song of 
+----- Generating with diversity 0.5 seed: "lift high "
+lift high right for somedoins
+i real lonely love shot
+all away
+a little black lose a man
+hello a broken
+heart 
+----- Generating with diversity 1.0 seed: "lift high "
+lift high right to still yound
+maryon goost
+they walls for me
+change  the woman
+you re mn lion
+hosel
+i wink of
+----- Generating with diversity 1.2 seed: "lift high "
+lift high lyoums s joe
+comes bude
+vitwell
+wasticg
+e hone  in my heart
+is a zolming staring
+all my lavery
+pufft
+
+###### 30
+Epoch 1/1
+40s - loss: 1.2555
+
+----- Generating with diversity 0.2 seed: "s
+mi remem"
+s
+mi remember
+what step the stars
+the sun s without you
+changes
+heartbreak redemer
+somebody s to the heart
+bet
+----- Generating with diversity 0.5 seed: "s
+mi remem"
+s
+mi remember
+all over you
+anything with me
+a little stranger train
+blow on
+go again arous to me
+the heart on 
+----- Generating with diversity 1.0 seed: "s
+mi remem"
+s
+mi remember
+we ve got the things of my worldern girl
+ba it son
+river comes bells in the coore on  don t heav
+----- Generating with diversity 1.2 seed: "s
+mi remem"
+s
+mi remember memoraw
+all awayping  punk teppers heartleut
+quesson perfanthed
+heavy n ro
+bedarana rag enough
+c
+
+###### 31
+Epoch 1/1
+40s - loss: 1.2507
+
+----- Generating with diversity 0.2 seed: "at matter "
+at matter dien
+heart of the seven days
+love is the sun
+shadows off
+if the world
+the girl with me
+all the girl
+
+----- Generating with diversity 0.5 seed: "at matter "
+at matter dien
+not fash
+ordifall ligito for the storm
+dance with me shings
+where day  back to love
+it s gonna 
+----- Generating with diversity 1.0 seed: "at matter "
+at matter flyetz to lase you
+new girlsic  
+outour things
+sinner ashear
+now
+das use of fire
+wixhew man
+windown 
+----- Generating with diversity 1.2 seed: "at matter "
+at matter thang
+2xcybounder
+pashous
+sabias
+give your eyes
+living down
+seal power
+dan t cry
+heasy faid it ot
+sa
+
+###### 32
+Epoch 1/1
+40s - loss: 1.2474
+
+----- Generating with diversity 0.2 seed: "what i m l"
+what i m losent world
+better than all of stars
+i m a song
+a little days
+heaven and the holly bus in angel
+i m 
+----- Generating with diversity 0.5 seed: "what i m l"
+what i m live
+dream
+heart of the weed
+she s got the warding
+stay back to love
+aran s rock with you
+shout be an
+----- Generating with diversity 1.0 seed: "what i m l"
+what i m looking and the basky
+me a potous day
+reaf fire
+ oce  in yes too christ
+jealess and baby say
+i love i
+----- Generating with diversity 1.2 seed: "what i m l"
+what i m lullauss
+the o an kinss everything in the circle
+bombberne man
+viscerlanwate
+never na drum
+little jus
+
+###### 33
+Epoch 1/1
+40s - loss: 1.2434
+
+----- Generating with diversity 0.2 seed: "sage of lo"
+sage of love
+the stars again
+the man s my baby
+the man i metter to me
+angel s got to get hard time
+love her so
+----- Generating with diversity 0.5 seed: "sage of lo"
+sage of love
+for you ready for the dead
+fadie house
+i love me to you
+stay with me
+and the stars
+make it oursed
+----- Generating with diversity 1.0 seed: "sage of lo"
+sage of love
+asceater to drumble back
+color lublies
+commocoabife
+cry me  chulibar
+enough of guil
+don t get bea
+----- Generating with diversity 1.2 seed: "sage of lo"
+sage of love agais
+go
+no roser
+sron  datch s crazy
+cillar
+hey bow minds
+i m evil killer
+it mande
+vibbiethdo co
+
+###### 34
+Epoch 1/1
+40s - loss: 1.2404
+
+----- Generating with diversity 0.2 seed: "een here b"
+een here bounge
+summer hoter s baby
+the world to hell
+see the world
+the way i love
+hard times
+anything on me
+l
+----- Generating with diversity 0.5 seed: "een here b"
+een here ball
+change for the stars
+dear morning
+dead now that i want to be with the believer and me
+so long ar
+----- Generating with diversity 1.0 seed: "een here b"
+een here borant jugn
+before this bean not fight for you
+ohen my day
+balamas  kingrem
+evry tower
+anything and d
+----- Generating with diversity 1.2 seed: "een here b"
+een here backsow
+best of children
+hapen
+ble cause my train
+hey
+pighoon s
+nub bob
+hour milomin
+killerid
+substio
+
+###### 35
+Epoch 1/1
+40s - loss: 1.2362
+
+----- Generating with diversity 0.2 seed: "me crazy
+c"
+me crazy
+crack right fridnes
+can t let you go
+the back to me
+all the man
+i don t call on me
+i want to see you
+
+----- Generating with diversity 0.5 seed: "me crazy
+c"
+me crazy
+crazy hold
+love is here  all in the hold
+bird
+only love
+i m read
+living in the dark
+favorola
+the chil
+----- Generating with diversity 1.0 seed: "me crazy
+c"
+me crazy
+chire is she doesn t have to yourself
+life for a dsof
+encuo your hong
+don t go awhile
+the bool k a co
+----- Generating with diversity 1.2 seed: "me crazy
+c"
+me crazy
+cace
+going dirce
+knock i m and je minutche ting rock no
+ghy for the can
+sing the dass
+do your selfed
+
+
+###### 36
+Epoch 1/1
+40s - loss: 1.2321
+
+----- Generating with diversity 0.2 seed: " to be on "
+ to be on a manged
+sand of a dream
+winter on me
+stay boy the world and for me
+someone s a broken heart
+for the
+----- Generating with diversity 0.5 seed: " to be on "
+ to be on the road world
+the money hamen
+bad river
+mary and jet s the one
+can t hook ottime in love
+all i wash
+----- Generating with diversity 1.0 seed: " to be on "
+ to be on face
+how don t ballions and leah tould herp
+undicam
+mystide of me
+can you red walk with you
+heartbre
+----- Generating with diversity 1.2 seed: " to be on "
+ to be on a chaing
+all willowe actende
+i know
+pyices ears
+bright to a roll did
+he aijarcian s people
+raining l
+
+###### 37
+Epoch 1/1
+40s - loss: 1.2296
+
+----- Generating with diversity 0.2 seed: "ie
+street "
+ie
+street is what it too late
+a love walking
+on the mountain of the rise
+crazy s rock
+i ll be there
+santa blam
+----- Generating with diversity 0.5 seed: "ie
+street "
+ie
+street is it town
+i am a country blues
+i know what it too late
+a little laush
+the dark love
+can you pretty 
+----- Generating with diversity 1.0 seed: "ie
+street "
+ie
+street i sing deeder
+laby invatiump on you
+dreamin  be hell
+moon of my new
+surrrow
+upterndaride
+heart bees
+
+----- Generating with diversity 1.2 seed: "ie
+street "
+ie
+street lapsant dorrm
+you wis you am
+s2ccowdy in the lamb sweep
+just notiny
+swodo stown
+scureheloved
+white 2
+
+###### 38
+Epoch 1/1
+40s - loss: 1.2260
+
+----- Generating with diversity 0.2 seed: "our dead 
+"
+our dead 
+i am be and a mind
+love is one
+the right for the love
+i can t see the wind
+start of the blue
+can t s
+----- Generating with diversity 0.5 seed: "our dead 
+"
+our dead 
+the sun in the doll
+christmas song
+what i want to baby about me
+the seed trile
+making you beaut
+cras
+----- Generating with diversity 1.0 seed: "our dead 
+"
+our dead 
+white love you
+agone maquegsity   dragh uct
+niche
+killing a little ork  funny horg
+el om bones off t
+----- Generating with diversity 1.2 seed: "our dead 
+"
+our dead 
+vish that is redrea
+one more i don t only just can hole har
+i can see feet
+spin high
+thristersear
+i 
+
+###### 39
+Epoch 1/1
+40s - loss: 1.2244
+
+----- Generating with diversity 0.2 seed: "n
+now and "
+n
+now and then
+mommic aloughter s got a minds of a bring the blues
+the right of starge
+the children of the blu
+----- Generating with diversity 0.5 seed: "n
+now and "
+n
+now and then
+milla hay
+when yourcer
+sad life
+i got my love
+tell me when you come
+come back
+we conting a rain
+----- Generating with diversity 1.0 seed: "n
+now and "
+n
+now and friend
+it s tiorghind
+ba a crazy may
+if you will be must keep me what
+the all on you gotta ston do a
+----- Generating with diversity 1.2 seed: "n
+now and "
+n
+now and then in i can t gnire
+gotting way is cry
+lucrie aft hautt
+exporadaions
+elelt after jean
+bewween blue
+
+###### 40
+Epoch 1/1
+40s - loss: 1.2206
+
+----- Generating with diversity 0.2 seed: "you go to "
+you go to me
+i m all over me
+stay down to the death and rose
+love is a christmas
+santa clue
+the dark start
+blu
+----- Generating with diversity 0.5 seed: "you go to "
+you go to me
+bad the darkness
+but you world
+ike s i love you
+so beautiful
+the sun
+pastices and man
+i want to b
+----- Generating with diversity 1.0 seed: "you go to "
+you go to me
+angel
+orolla years
+let dever
+song of fanstante
+burning of gover the time
+let it snow   i that you
+----- Generating with diversity 1.2 seed: "you go to "
+you go to face
+in my tracks
+8 brreh you
+gottt your in othlackina
+funnumberwoodiea
+e-ccjed it
+i go  by trust
+tv
+
+###### 41
+Epoch 1/1
+40s - loss: 1.2176
+
+----- Generating with diversity 0.2 seed: " babe it a"
+ babe it all say the with you
+i don t want to be with you
+i don t want to be with you
+i don t know you re dead
+----- Generating with diversity 0.5 seed: " babe it a"
+ babe it alaby
+holly now
+if ever star  roming
+love don t be with you
+i m alive
+i ll be til money blues
+any dou
+----- Generating with diversity 1.0 seed: " babe it a"
+ babe it all time love
+baby citin  s great party stay
+life is single
+monness
+old ba adai
+much the believes
+i d
+----- Generating with diversity 1.2 seed: " babe it a"
+ babe it always great roses of day
+go away is right fine lisky houghrn  relity hole
+till to
+go  live un at
+bal
+
+###### 42
+Epoch 1/1
+40s - loss: 1.2145
+
+----- Generating with diversity 0.2 seed: "eer
+if i m"
+eer
+if i m still in love
+i don t have to be a better and the blues
+the dark to me
+the stars true start
+stronge
+----- Generating with diversity 0.5 seed: "eer
+if i m"
+eer
+if i m an     
+i never be long
+til my way
+christmas is a love
+summer shin
+break the stand
+percuph
+lost in 
+----- Generating with diversity 1.0 seed: "eer
+if i m"
+eer
+if i m anywith of my to the sun
+christma op edvies
+bluebry
+never only holiday
+time wild ribber
+treases is 
+----- Generating with diversity 1.2 seed: "eer
+if i m"
+eer
+if i m dout
+shy
+chingistle
+if you start blow aleare
+the bring you
+of phanter to fly
+truck rain
+where teen 
+
+###### 43
+Epoch 1/1
+40s - loss: 1.2131
+
+----- Generating with diversity 0.2 seed: "ast boat t"
+ast boat to the world
+i want you want to be with you
+somewall
+i want to be with you
+a change with you
+somewher
+----- Generating with diversity 0.5 seed: "ast boat t"
+ast boat to the disapyaflamide
+i wish me stranger
+i ll be there 
+friends
+i can t see me i am
+like it out it
+fe
+----- Generating with diversity 1.0 seed: "ast boat t"
+ast boat to the diseaseny
+where door
+field0ing with the rais
+kater on me
+ain t it run
+nothing of you
+taxy  but
+----- Generating with diversity 1.2 seed: "ast boat t"
+ast boat tousing goes
+close the children thee 
+berach
+after have hot believeem
+mass airexlething
+harry can
+how
+
+###### 44
+Epoch 1/1
+40s - loss: 1.2106
+
+----- Generating with diversity 0.2 seed: "st of my l"
+st of my life
+i d rather be me and the dark
+i m so lonesome i m a long on your love love
+good time
+caristing s
+----- Generating with diversity 0.5 seed: "st of my l"
+st of my love with you
+med heart
+i wanna see the soul
+hate m s wha s a comfair
+she s i ll be your love with yo
+----- Generating with diversity 1.0 seed: "st of my l"
+st of my love you are you know
+my days
+wree  begaries
+kning in bloom
+try m slaves
+sucreting blue
+weort tire
+ho
+----- Generating with diversity 1.2 seed: "st of my l"
+st of my love
+woute me i man
+do
+rigny grass song
+vixe live
+aran and lord
+vivin tog
+hurting song
+sweet tel
+i we
+
+###### 45
+Epoch 1/1
+40s - loss: 1.2077
+
+----- Generating with diversity 0.2 seed: "ead the mo"
+ead the moon
+do you know
+i m got
+don t go now
+bluebed the world
+cold heart
+cry light of the world
+the stone mo
+----- Generating with diversity 0.5 seed: "ead the mo"
+ead the mountain
+car song
+philoces
+love and the season
+crazy
+do you love
+love is over you anymore
+i love me an
+----- Generating with diversity 1.0 seed: "ead the mo"
+ead the moher fardy over 
+for viving life my fly a mind
+i m on you
+johnny
+away in my hends
+sunday lored in the
+----- Generating with diversity 1.2 seed: "ead the mo"
+ead the mone said song
+you re snow
+every high
+kzame
+i am i swimpain sin sing
+i wand for heaven
+carolinatived
+d
+
+###### 46
+Epoch 1/1
+40s - loss: 1.2075
+
+----- Generating with diversity 0.2 seed: "  ruin
+i s"
+  ruin
+i sail me why
+devodes
+i m alive
+i m so long
+chill with you 
+shot it s the moon
+death in the world
+bette
+----- Generating with diversity 0.5 seed: "  ruin
+i s"
+  ruin
+i she showlf call
+don t want to be wild
+love you anymore
+baby mambie
+shine
+something to me
+how can you 
+----- Generating with diversity 1.0 seed: "  ruin
+i s"
+  ruin
+i sa ure for a mandit on
+motherlend
+put how s my life
+it should
+alow
+don t theep the boys
+mange love
+fr
+----- Generating with diversity 1.2 seed: "  ruin
+i s"
+  ruin
+i sapweed country run
+blamblie  ran  bot cown
+i ablutanca
+if you save
+along toey i asxe girl
+freakin da
+
+###### 47
+Epoch 1/1
+40s - loss: 1.2037
+
+----- Generating with diversity 0.2 seed: "ry
+univers"
+ry
+universal s good my baby
+the right to say goodbye
+someone like these
+i ll speppers
+let it snow  let it snow
+----- Generating with diversity 0.5 seed: "ry
+univers"
+ry
+universal s baby
+flaika
+i am voo dish
+dannyor
+somebody s to eyes now
+burn me brother
+i want to be with you
+
+----- Generating with diversity 1.0 seed: "ry
+univers"
+ry
+universle
+flifftation
+i have a had risty
+sign swatc
+mounterker
+living in the day
+don t talk oven
+lessecfiol
+----- Generating with diversity 1.2 seed: "ry
+univers"
+ry
+universshido
+ill va ghentin the big night
+somewherele
+stand by love
+sat my upbrenk
+rockea
+pator lookind
+ste
+
+###### 48
+Epoch 1/1
+40s - loss: 1.2035
+
+----- Generating with diversity 0.2 seed: "y boy
+hand"
+y boy
+hand blind
+standing on the wall
+amon a time
+the way way to start
+hard times
+the stars to me
+stay boys an
+----- Generating with diversity 0.5 seed: "y boy
+hand"
+y boy
+hand palin 
+cross is home
+roding on my soul
+the gun
+read thing
+cry to you
+more than we ve got the snaile
+----- Generating with diversity 1.0 seed: "y boy
+hand"
+y boy
+hand blesserne
+the anger night
+the motels  hoter univer
+the sunshine an wanna bangl
+whate to
+thir amenut
+----- Generating with diversity 1.2 seed: "y boy
+hand"
+y boy
+handn to usem
+of of you doins than thouss
+tu kusariccess
+sinch ind
+oh homy necht-bon kead
+crys  my preas
+
+###### 49
+Epoch 1/1
+40s - loss: 1.1998
+
+----- Generating with diversity 0.2 seed: "r me
+court"
+r me
+courtron road
+i m the man i m smile
+the way i m on by
+i want to be wild
+i love you  alone
+i want to be wi
+----- Generating with diversity 0.5 seed: "r me
+court"
+r me
+courtruc moon
+raincorring back the party
+banglacivivo 
+back to love
+a give you again
+baby and dirtt
+i m a
+----- Generating with diversity 1.0 seed: "r me
+court"
+r me
+courty to companter
+here i love
+time in two  of life
+ad thing i re percoper
+sad togither
+give to fce
+i he
+----- Generating with diversity 1.2 seed: "r me
+court"
+r me
+courtroll 2 counter
+malique farmo
+unsaragh
+solding fridnes
+that s the a lost
+hour warsher
+therw hole
+bby 
+
+###### 50
+Epoch 1/1
+40s - loss: 1.1956
+
+----- Generating with diversity 0.2 seed: "re angels "
+re angels for me
+fight together
+make it back
+forever in midnight in my heart
+dance
+from street
+loose you want 
+----- Generating with diversity 0.5 seed: "re angels "
+re angels for me
+cold fash tomorrow
+let s take all
+dreamer one
+sacrydatted and red
+love s in missised
+i m gonn
+----- Generating with diversity 1.0 seed: "re angels "
+re angels no live
+carodre wise
+it s calestill
+tuke you in my ghistton
+dream fighting to me
+pity babila
+new yor
+----- Generating with diversity 1.2 seed: "re angels "
+re angels sond american
+happy soul
+invidion
+flakes
+pow 101
+geoling darlin
+mana  please
+to lost upsings liaqste
+
+###### 51
+Epoch 1/1
+40s - loss: 1.1953
+
+----- Generating with diversity 0.2 seed: "ifference
+"
+ifference
+stars of planes
+hearts of the rose
+someone s gonna be a midnight
+i m a mar man s in the sky
+don t yo
+----- Generating with diversity 0.5 seed: "ifference
+"
+ifference
+lonely
+the missing my heart
+go on the mountain
+sweet to take me
+much the way it s gonna free
+my ordi
+----- Generating with diversity 1.0 seed: "ifference
+"
+ifference
+mississany
+kitch cigloneraatie song
+big bled
+thankerrich
+wonders song
+cocenshan
+just wontas c ked mo
+----- Generating with diversity 1.2 seed: "ifference
+"
+ifference
+marth
+holy i threed of ecarl
+julie
+keg changed
+palk had i hid
+prevaithing to sintings
+devil  ad
+ever
+
+###### 52
+Epoch 1/1
+40s - loss: 1.1922
+
+----- Generating with diversity 0.2 seed: "ind 
+why s"
+ind 
+why s late 
+it s all giving again
+love is a world
+christmas the way
+countrown song
+i want to be wild
+love
+----- Generating with diversity 0.5 seed: "ind 
+why s"
+ind 
+why s the line
+girl you re me
+sail goes bding eyes love
+i want to see the punk
+heavy of a day
+end of the 
+----- Generating with diversity 1.0 seed: "ind 
+why s"
+ind 
+why s underright gundy gees essaxe
+dead man wood
+big young
+dance
+baby and blue
+death and slate
+if a gun
+l
+----- Generating with diversity 1.2 seed: "ind 
+why s"
+ind 
+why s le snownap
+you gutter3
+kneighta me  wite jube
+rubde-
+musics when god
+fries death over wronges
+now r
+
+###### 53
+Epoch 1/1
+40s - loss: 1.1906
+
+----- Generating with diversity 0.2 seed: "othin  lef"
+othin  left be my eyes
+barn the land
+love is a heart
+send you are the love
+the speak and blue
+head in the moon
+----- Generating with diversity 0.5 seed: "othin  lef"
+othin  left big blue
+country walk
+down to the lorr
+i want to be will
+stay away
+the fighter
+carisantay
+the way 
+----- Generating with diversity 1.0 seed: "othin  lef"
+othin  lefilet
+true my head off s nothing it love
+angry for betwor
+country
+never talk
+jameskaret me of you
+dur
+----- Generating with diversity 1.2 seed: "othin  lef"
+othin  left good  life hearts
+the slappion anga
+a versore
+lones this blues
+anything baffies
+gzave you come  in
+
+###### 54
+Epoch 1/1
+40s - loss: 1.1880
+
+----- Generating with diversity 0.2 seed: "coat
+more
+"
+coat
+more
+wilding on your heart
+love is the light
+hey  this can t get change
+the beginning
+believe it
+love is 
+----- Generating with diversity 0.5 seed: "coat
+more
+"
+coat
+more
+wilding on the sun
+the last till you anymore
+little baby
+come on love
+everyone s brothers underot to
+----- Generating with diversity 1.0 seed: "coat
+more
+"
+coat
+more
+each in up
+hotelf and i ever 2
+das us
+song of love
+hey while
+i haps for try
+time
+leggade that would 
+----- Generating with diversity 1.2 seed: "coat
+more
+"
+coat
+more
+santa bzhan is through shok of me like
+love house  waite the godpulit
+what a bebom
+to know
+is tomow
+
+
+###### 55
+Epoch 1/1
+40s - loss: 1.1864
+
+----- Generating with diversity 0.2 seed: "leigh ride"
+leigh ride
+so long  i m so bad
+someone love
+i m a mand
+as time in the end
+i can t have to be wise
+the sunniesk
+----- Generating with diversity 0.5 seed: "leigh ride"
+leigh ride
+so beautiful
+strange the ones son
+all wild districk
+the right tiger
+better than a woman
+where dream
+----- Generating with diversity 1.0 seed: "leigh ride"
+leigh ride
+heart excord
+gren
+hold on
+burino life is side
+it s reade i need
+make believe
+sweet demogoa
+just and
+----- Generating with diversity 1.2 seed: "leigh ride"
+leigh ride
+blue nammery
+mind thing
+abjan to
+higher tha weat song
+what not goes  eyes
+everything it womon
+money
+
+###### 56
+Epoch 1/1
+40s - loss: 1.1838
+
+----- Generating with diversity 0.2 seed: "ounting tr"
+ounting train
+winger of something to me
+baby around
+the happens
+and i m gonna can strong
+die with you
+stand fo
+----- Generating with diversity 0.5 seed: "ounting tr"
+ounting train
+walls in the blue
+gold my life
+talk about you
+my friend me
+back to you
+stand blues
+can t show
+ho
+----- Generating with diversity 1.0 seed: "ounting tr"
+ounting train of chareom
+six fouth our love
+cyque
+song
+liap me all nimer
+all the kniffeenin
+it spoke amoria
+be
+----- Generating with diversity 1.2 seed: "ounting tr"
+ounting traces
+flawal
+ro
+xi- racl
+fee in the groweth
+my heart and end landlen
+eyes what i get bling
+for opippu
+
+###### 57
+Epoch 1/1
+40s - loss: 1.1840
+
+----- Generating with diversity 0.2 seed: " waltz
+jus"
+ waltz
+just accuone the boy
+can t get started
+a little love
+i m so got a good year s balling
+a start of dreams
+----- Generating with diversity 0.5 seed: " waltz
+jus"
+ waltz
+just a rose
+let it snow  let it snow
+sulful
+be a little brown skind
+blue please
+surfairy in my life
+the
+----- Generating with diversity 1.0 seed: " waltz
+jus"
+ waltz
+just actiand sall daaked
+sad s war
+i she kconcer
+a love song
+if i ever good acm breez
+spit
+crazy harada
+----- Generating with diversity 1.2 seed: " waltz
+jus"
+ waltz
+just like you anymlant
+shadows intra
+nothing have you
+el man s bean again ang bluez
+popoones canfut of
+
+
+###### 58
+Epoch 1/1
+40s - loss: 1.1812
+
+----- Generating with diversity 0.2 seed: "od lookin "
+od lookin  again
+the way you want to be wither s got the boys for the snow
+angels days
+here comes the way
+what
+----- Generating with diversity 0.5 seed: "od lookin "
+od lookin 
+on the red boy
+love and cross and revolution a woman
+my soul tonight
+so back darling
+i want you are
+----- Generating with diversity 1.0 seed: "od lookin "
+od lookin  down the stun
+world nighty
+alue your way all girobertlant
+speaking it wistednew
+concerb
+days to alm
+----- Generating with diversity 1.2 seed: "od lookin "
+od lookin  for the girl
+budrolling
+jesus top  blue
+next groovsablaodoy hey earch too good
+odeaf th if downing 
+
+###### 59
+Epoch 1/1
+40s - loss: 1.1776
+
+----- Generating with diversity 0.2 seed: "l alright "
+l alright for you
+straight
+let s got a persona
+i ll be there
+heart of a chance
+somebody loved me
+child of the 
+----- Generating with diversity 0.5 seed: "l alright "
+l alright lover
+it s the morning
+love is a lover
+i want to see you
+childree of the world dark
+beautiful go
+don
+----- Generating with diversity 1.0 seed: "l alright "
+l alright love
+wardston feeling
+in long lover
+one hoper
+way wanter
+m
+am i  don rose to peace
+a lot time
+mumpst
+----- Generating with diversity 1.2 seed: "l alright "
+l alright for the sheleps c
+sure of a hearder
+happicnoos
+my brighing a itmank mubit
+the spistings
+circus
+sup
+m
+
+###### 60
+Epoch 1/1
+40s - loss: 1.1784
+
+----- Generating with diversity 0.2 seed: " you
+banan"
+ you
+banana day
+i ll be there
+a soliturears
+life of you
+someone and merry wind
+this love
+hey   deligher
+i m a 
+----- Generating with diversity 0.5 seed: " you
+banan"
+ you
+banana ballad of angels
+wallam my hands i m a long man
+high on
+only the sea
+ran the way you are my life
+i
+----- Generating with diversity 1.0 seed: " you
+banan"
+ you
+bananched beass of dee
+my heart band
+burrala
+laboe darl
+living people
+save everybody
+likeling
+rendeogetti
+----- Generating with diversity 1.2 seed: " you
+banan"
+ you
+bananly
+tody
+may real
+c if wine
+devil unk
+that can e city
+katcurst
+but s who hutwor spokis
+i fought heidd
+
+###### 61
+Epoch 1/1
+40s - loss: 1.1728
+
+----- Generating with diversity 0.2 seed: "in
+bring b"
+in
+bring by the moons resure of love
+crazy little thing in the sirness
+all i wanna be will spinking
+i d rather
+----- Generating with diversity 0.5 seed: "in
+bring b"
+in
+bring bolliot for the stars
+i ll speed to your love
+i don t know you and i wanna be a merry for you
+heavenl
+----- Generating with diversity 1.0 seed: "in
+bring b"
+in
+bring bace
+best of faite
+eepecte
+private times
+the king for eyes
+silence
+one down thing s reggeze
+love
+she 
+----- Generating with diversity 1.2 seed: "in
+bring b"
+in
+bring brid
+earana sorry
+noway
+we rall about
+if you didn t
+bedrs
+waltz no vici
+side song
+severings
+drift who
+
+###### 62
+Epoch 1/1
+40s - loss: 1.1726
+
+----- Generating with diversity 0.2 seed: "e it a go
+"
+e it a go
+stars breakd
+santa cown
+love is the sun
+shape of me
+stars of love
+heart of my heart
+when the season 
+----- Generating with diversity 0.5 seed: "e it a go
+"
+e it a go
+dirty wonse
+blues song
+last night i go
+roll right
+for the dark
+be my baby
+i don t want to be sulfren
+----- Generating with diversity 1.0 seed: "e it a go
+"
+e it a go
+other magice
+thirkingring in the woods
+deed i prashom 
+astiend intatla
+like it begie
+all i gosn
+stmo
+----- Generating with diversity 1.2 seed: "e it a go
+"
+e it a go
+s  behy slutic blues
+runne man
+ocean dance
+beginning
+doess one for all my tarl from a raisin
+acring 
+
+###### 63
+Epoch 1/1
+40s - loss: 1.1709
+
+----- Generating with diversity 0.2 seed: "my mind
+i "
+my mind
+i want you
+better than like you
+somebody
+stay away
+the breet beginnings
+saturday name
+god cry
+my heart
+----- Generating with diversity 0.5 seed: "my mind
+i "
+my mind
+i dreamer on summer
+the chaigh
+tomorrow
+i m ready
+the phill and motel the game
+i want you
+better than 
+----- Generating with diversity 1.0 seed: "my mind
+i "
+my mind
+i no light
+spink att
+drucky
+delight
+the roll s ok
+head is earth
+on the bree
+she knows time
+fingle by j
+----- Generating with diversity 1.2 seed: "my mind
+i "
+my mind
+i livervin
+illach
+oybuicu
+what it ayo
+the sasora prosedy heart
+hole  carewom
+aucolintion
+c alies
+sense
+
+###### 64
+Epoch 1/1
+40s - loss: 1.1704
+
+----- Generating with diversity 0.2 seed: "et again
+s"
+et again
+stay bound
+i don t want to be wise
+the long time
+one more time
+unitje lover
+it s got a have you anoth
+----- Generating with diversity 0.5 seed: "et again
+s"
+et again
+stay baby day
+welcome to christmas
+the way at all
+don t be a day
+a good time
+can t stay baby day
+wist
+----- Generating with diversity 1.0 seed: "et again
+s"
+et again
+school afraid at
+shallers is deat
+schoolgary
+white without you
+were shrost in the earthes
+u her of my
+----- Generating with diversity 1.2 seed: "et again
+s"
+et again
+sorrow nothin  
+right the boogian
+cabfreateder and sudent
+jeafolia
+bala
+just live
+unchainion
+don t st
+
+###### 65
+Epoch 1/1
+40s - loss: 1.1707
+
+----- Generating with diversity 0.2 seed: "walk throu"
+walk through the blues
+i m a sonnies  be there
+stay back to yours
+the knows
+don t be werser
+sad now
+blue baby
+
+----- Generating with diversity 0.5 seed: "walk throu"
+walk through cross
+living on the blows
+here comes the winds of the second
+catch me you got a love
+boy first
+de
+----- Generating with diversity 1.0 seed: "walk throu"
+walk through the clobing
+whong   he knew
+some kirste
+bramilemary
+bloodlelthing s rose
+latest lane
+shigh wrone
+
+----- Generating with diversity 1.2 seed: "walk throu"
+walk through
+clet to ruling on
+she ggad itmantless
+bilgs from my heart
+unructing horck
+high
+trail of mary
+no m
+
+###### 66
+Epoch 1/1
+40s - loss: 1.1668
+
+----- Generating with diversity 0.2 seed: "o be free
+"
+o be free
+anoweren traind
+don t know you go
+the ballad of the sun
+the sunshine
+save to you
+i m gonna daver wha
+----- Generating with diversity 0.5 seed: "o be free
+"
+o be free
+that s all the way
+we were dollar
+i m so start
+border on the rivershing up the sunshine
+king of the 
+----- Generating with diversity 1.0 seed: "o be free
+"
+o be free
+fbaltz in clowr on
+digminq na named mine
+prayerous
+world a like my baby
+too late
+a bound west bean m
+----- Generating with diversity 1.2 seed: "o be free
+"
+o be free
+hillis s partum
+sweet this glass tramen
+night is a millia
+good again
+let dise your eyes
+daucy wishes
+
+###### 67
+Epoch 1/1
+40s - loss: 1.1657
+
+----- Generating with diversity 0.2 seed: "of us cann"
+of us canneza
+start of the world
+better love
+i m gonna fields of love
+home in the wind
+spankess
+the world one
+
+----- Generating with diversity 0.5 seed: "of us cann"
+of us canne1s
+elotin  better
+the girl love
+bring your night
+the boys in the world
+christmas the wild
+i am hell
+----- Generating with diversity 1.0 seed: "of us cann"
+of us cannex
+i wanna tell my heart to losing you
+fly xol man
+jimburn
+were dadg sark rockin
+women door how and 
+----- Generating with diversity 1.2 seed: "of us cann"
+of us cannering
+statuede of your heart you be with a rch
+a ghost of take mine
+you win a geortion on your movie
+
+###### 68
+Epoch 1/1
+40s - loss: 1.1653
+
+----- Generating with diversity 0.2 seed: "ns
+electri"
+ns
+electric run
+my beauty hand on the world
+let s got to have mores
+she s got the world
+let s get it
+i m a man
+----- Generating with diversity 0.5 seed: "ns
+electri"
+ns
+electric a man  and me
+the kingdops of the street from behon
+lonesome i hate my mind
+can t get on a joly wh
+----- Generating with diversity 1.0 seed: "ns
+electri"
+ns
+electric christmas
+another utine
+only way young
+back in long 
+precious
+wheterest kiter
+christmas in appersi
+----- Generating with diversity 1.2 seed: "ns
+electri"
+ns
+electric dave  7t  gonna ry adial
+again
+the lady day dreams
+always
+naifeline s heavy and anowing out
+harrme
+
+###### 69
+Epoch 1/1
+40s - loss: 1.1628
+
+----- Generating with diversity 0.2 seed: "king of tw"
+king of twoh
+something s to me
+all the teat
+strange perfel
+the first too mucy
+the earth
+the stars of love
+i m 
+----- Generating with diversity 0.5 seed: "king of tw"
+king of twouthed stands
+i wanna see down t get starts
+don t say to bedn
+we kill that i can want  be the real
+h
+----- Generating with diversity 1.0 seed: "king of tw"
+king of tworles
+purtume
+if i wixn for away
+chains
+happy boy
+elfich them
+i can wings
+backearty
+burnout to arms
+
+----- Generating with diversity 1.2 seed: "king of tw"
+king of twouthk the pako girl
+poeltarel
+reh sunshine
+magic coo4
+atch jape
+my life upe move
+2 as
+party bells
+ho
+
+###### 70
+Epoch 1/1
+40s - loss: 1.1607
+
+----- Generating with diversity 0.2 seed: " shoes
+fue"
+ shoes
+fuest thing i wanna see you wantat lahe
+last child
+love s love
+i m gonna love in love
+it s gonna get on
+----- Generating with diversity 0.5 seed: " shoes
+fue"
+ shoes
+fuels are paper for the follond a lot start
+love in the ball
+will you call
+i m for somedone
+pastion com
+----- Generating with diversity 1.0 seed: " shoes
+fue"
+ shoes
+fuest any
+kerry child with this driptious the nights
+it of my soul
+teario girl
+the hey  mation
+driptis 
+----- Generating with diversity 1.2 seed: " shoes
+fue"
+ shoes
+fuew  grangain someoffslit
+in the a2
+oud or night i fove
+everything
+be the heart
+hole man
+the gun
+puty 
+
+###### 71
+Epoch 1/1
+40s - loss: 1.1589
+
+----- Generating with diversity 0.2 seed: "thingman
+d"
+thingman
+don t want to be will i ll get on my heart
+the boys and love
+heartbreak him
+i need you are with you
+s
+----- Generating with diversity 0.5 seed: "thingman
+d"
+thingman
+don t get around me
+sing in the diet i da  wait to say goodbye
+and i am tiller
+i m got that you love
+
+----- Generating with diversity 1.0 seed: "thingman
+d"
+thingman
+days a little run hooking
+workin  for a childror
+day yover
+it runnin 
+hobo oved skin
+your sweet faces
+----- Generating with diversity 1.2 seed: "thingman
+d"
+thingman
+dance woman
+bow for my lover
+eisty george
+let s to you
+maning raptterts
+don t let   shut it
+likes ma 
+
+###### 72
+Epoch 1/1
+40s - loss: 1.1565
+
+----- Generating with diversity 0.2 seed: "ntasy
+cry "
+ntasy
+cry love
+i would you re gonna get on the road
+the sand of the blues
+the beautiful
+children of the river
+
+----- Generating with diversity 0.5 seed: "ntasy
+cry "
+ntasy
+cry fish weeck
+give you are
+come on now
+he will to ewel
+behold on the sun
+shater white cry to you
+bad bo
+----- Generating with diversity 1.0 seed: "ntasy
+cry "
+ntasy
+cry and sun
+mighting   a big
+hings my more jurge
+your near gone
+songing out outs
+friend or pharte
+never 
+----- Generating with diversity 1.2 seed: "ntasy
+cry "
+ntasy
+cry 4 back
+wbrakdas in the ground dight
+ain t kingdnings
+let me power
+zyinness is mnow
+comp way
+the clos
+
+###### 73
+Epoch 1/1
+40s - loss: 1.1565
+
+----- Generating with diversity 0.2 seed: "s day
+gett"
+s day
+getting on me
+little stand by the line
+if you real
+i m a long way
+playing around
+the boy hard to she my 
+----- Generating with diversity 0.5 seed: "s day
+gett"
+s day
+gettin  of the ball
+ain t no sunshine
+another dollar blue my mother
+it s gonn  i do no ners
+don t let yo
+----- Generating with diversity 1.0 seed: "s day
+gett"
+s day
+gettin  in the ballo
+matter rack
+while in your heart anymore
+do you hears parsoned
+childron of down the 
+----- Generating with diversity 1.2 seed: "s day
+gett"
+s day
+gettin atepterry 
+rake time
+jesus together
+she s gjie
+left bittoogt
+follow  war never
+single
+flyeth girl
+
+###### 74
+Epoch 1/1
+40s - loss: 1.1548
+
+----- Generating with diversity 0.2 seed: "y s song  "
+y s song  in the world
+the stone
+she s gone
+make it our hold on
+the soluti
+fire down the wall
+can t stop me
+sh
+----- Generating with diversity 0.5 seed: "y s song  "
+y s song   live
+one day
+i don t want to be say
+goes to me
+all of my baby
+country street
+love is the ballad of 
+----- Generating with diversity 1.0 seed: "y s song  "
+y s song  it s take me and mind
+motow gree in a march
+king of twough
+a tunrime
+the right if i can t seed night
+----- Generating with diversity 1.2 seed: "y s song  "
+y s song  i wist habuldub
+giffee there
+rod long daddy
+move me enoth restsere hind kinsion
+i feel down
+punce si
+
+###### 75
+Epoch 1/1
+40s - loss: 1.1522
+
+----- Generating with diversity 0.2 seed: "ly in love"
+ly in love
+love in the coty
+i m not strange
+make something s love
+god good to you
+i m a loter love
+holly on to
+----- Generating with diversity 0.5 seed: "ly in love"
+ly in love without you
+little santa claus is the woman
+don t want to sea s way
+don t want to dance
+morning out
+----- Generating with diversity 1.0 seed: "ly in love"
+ly in love
+sweet please toulama
+give me in love without i good gam
+i m conting back in love
+somedmory
+only nea
+----- Generating with diversity 1.2 seed: "ly in love"
+ly in love
+hard i m in love
+forever was it moment
+it
+love with me
+chity love
+pressure call over
+my love in a h
+
+###### 76
+Epoch 1/1
+40s - loss: 1.1510
+
+----- Generating with diversity 0.2 seed: "mindtrip
+i"
+mindtrip
+i ll be there
+santa blad
+see a rose
+perca sade
+sunshine of thee
+don t come face
+black and be the send
+----- Generating with diversity 0.5 seed: "mindtrip
+i"
+mindtrip
+i d lakes a long
+i don t have mery man
+cross years
+were you re me
+so baby love
+i want to be with you
+
+----- Generating with diversity 1.0 seed: "mindtrip
+i"
+mindtrip
+i am never know
+i don t make you are
+souf tobel deachoin  it happe
+as by the know
+fow
+o b  for univer
+----- Generating with diversity 1.2 seed: "mindtrip
+i"
+mindtrip
+is the ole
+sama dreame
+ring my heart
+the pleasure do what you
+nah call it
+ap i
+romon s just one dayib
+
+###### 77
+Epoch 1/1
+40s - loss: 1.1494
+
+----- Generating with diversity 0.2 seed: "e
+the only"
+e
+the only when it wonder
+sunshine
+day tritude
+say god is baby
+blow your love
+i wanna be the rise
+i ll be ther
+----- Generating with diversity 0.5 seed: "e
+the only"
+e
+the only one
+dangering of the blues
+she hands of a heart
+carplis rish s i need
+a wall right
+in the sunshine
+
+----- Generating with diversity 1.0 seed: "e
+the only"
+e
+the only workin 
+shake
+i ll be there no lead
+let hir eyes anypue
+can t keep a were
+it lig ll seat guds
+tuke 
+----- Generating with diversity 1.2 seed: "e
+the only"
+e
+the only oh there
+reveled is a little right
+longon tzomous
+colorod like you anythemure kiss
+i know
+when tull
+
+###### 78
+Epoch 1/1
+40s - loss: 1.1496
+
+----- Generating with diversity 0.2 seed: "us is comi"
+us is coming to town
+twile walk to be wild
+love me off the world over
+something that you re dead bird
+cold com
+----- Generating with diversity 0.5 seed: "us is comi"
+us is coming to town
+two a john won t keep me water
+rainbow blues
+little ride
+set in town tonight
+so beauty   
+----- Generating with diversity 1.0 seed: "us is comi"
+us is cominition of the feelia
+i know somenoty-bad
+let it bitter
+ohen of the night
+they love  pretty eliabire
+
+----- Generating with diversity 1.2 seed: "us is comi"
+us is coming a commight swalturger
+nace
+the solle cluie
+motherlygets of my aboveny
+lash of heart
+country
+crazy
+
+###### 79
+Epoch 1/1
+40s - loss: 1.1468
+
+----- Generating with diversity 0.2 seed: "talks
+expo"
+talks
+expoditanel
+back to you
+don t get around me anymore
+i m gonna make i m an a more
+this down
+this dead i a
+----- Generating with diversity 0.5 seed: "talks
+expo"
+talks
+expoditx the lady
+girls days
+someway home
+elsy song
+put you  the  who you want to be with you
+midnight t
+----- Generating with diversity 1.0 seed: "talks
+expo"
+talks
+expodittiny
+reil my heart
+so ray
+what1
+doude
+millat roll
+cuntress
+you one
+terrdhe
+i m anywal
+surent for 
+----- Generating with diversity 1.2 seed: "talks
+expo"
+talks
+expodecher
+big girl
+welcomm moving times
+i feel to now
+shout is it
+no little tolby
+a muter seak tage cin
+
+###### 80
+Epoch 1/1
+40s - loss: 1.1449
+
+----- Generating with diversity 0.2 seed: "ther revol"
+ther revol
+i ll be there
+love is on the world tong to be with you
+hold on to my heart
+i m a long of the stars
+
+----- Generating with diversity 0.5 seed: "ther revol"
+ther revol
+i m a little hard times
+ain t what love again
+let me last say the one
+lang of the please
+mongey awa
+----- Generating with diversity 1.0 seed: "ther revol"
+ther revol
+i do like you saver
+a long with my mind
+cross in all alone
+lose your eyes forever
+spacres
+remember 
+----- Generating with diversity 1.2 seed: "ther revol"
+ther revolow
+every chime
+ponet florives
+big dimblerron
+hello her eyes
+bangly
+iaphelus
+i ck hey  eenie
+losing
+f
+
+###### 81
+Epoch 1/1
+40s - loss: 1.1443
+
+----- Generating with diversity 0.2 seed: "ll alive
+r"
+ll alive
+river thes
+the change
+nive a solotia toyme
+all i never stop
+love is all the boy
+someone to heaven
+cal
+----- Generating with diversity 0.5 seed: "ll alive
+r"
+ll alive
+running back to the world
+oh believe
+it s world
+i m not to a man
+music of brock
+help to love
+i would 
+----- Generating with diversity 1.0 seed: "ll alive
+r"
+ll alive
+rixinged on me
+leaving home
+mone
+anythin changer
+don t tell me you ape s i love this days tames
+we ll
+----- Generating with diversity 1.2 seed: "ll alive
+r"
+ll alive
+run
+happinn clover
+shootwetric girl
+santbee
+lousge again
+detroi
+lack dang like 2 ballo mauch
+eyes is 
+
+###### 82
+Epoch 1/1
+40s - loss: 1.1440
+
+----- Generating with diversity 0.2 seed: " city
+mama"
+ city
+mama can t stop here
+i m a song me something
+the boogie 
+i m a long
+in the morning rain
+love is a heaven
+----- Generating with diversity 0.5 seed: " city
+mama"
+ city
+mama can t call out of foreve
+amenica
+head of my heart
+come back the world
+i like the rose
+come to me
+he
+----- Generating with diversity 1.0 seed: " city
+mama"
+ city
+mama eyes wilm tire frobide
+fell my babe
+i shouldngel
+life of glote love of you
+same of the night
+the de
+----- Generating with diversity 1.2 seed: " city
+mama"
+ city
+mama
+do your sheelmy blues so lot myself out
+jean much
+where s one
+just let mcnotiand light
+just emia
+on
+
+###### 83
+Epoch 1/1
+40s - loss: 1.1426
+
+----- Generating with diversity 0.2 seed: "ese dreams"
+ese dreams
+i don t wanna be your baby
+close to you
+starters chain  love wanter
+back in a world
+christmas song
+
+----- Generating with diversity 0.5 seed: "ese dreams"
+ese dreams
+i d last the way
+free a rainbow
+carifors in love
+let it read
+i know you re so back
+the love of a li
+----- Generating with diversity 1.0 seed: "ese dreams"
+ese dreams
+ti- my hands
+tecurde of earth love choou
+she s wonderful
+it doesn you slopphard
+the truta
+grace in 
+----- Generating with diversity 1.2 seed: "ese dreams"
+ese dreams
+and pale in the home
+my romizanc
+pok hatw
+you care you
+blow yourself
+and that law i mountse
+old str
+
+###### 84
+Epoch 1/1
+40s - loss: 1.1404
+
+----- Generating with diversity 0.2 seed: "ith that
+e"
+ith that
+everything i hear a little bells
+beautiful days
+the ballad of the world
+i wanna be your way
+before th
+----- Generating with diversity 0.5 seed: "ith that
+e"
+ith that
+el ey s
+golder christmas
+the beautiful to love
+don t let the man
+i got it and you
+and i foue love
+how
+----- Generating with diversity 1.0 seed: "ith that
+e"
+ith that
+erch s harleds away
+can t let me be - everytheres
+i m and me side
+father high
+texue beautiful
+believe
+----- Generating with diversity 1.2 seed: "ith that
+e"
+ith that
+eagy my sovernight swouth lie 
+we ve gondenfire
+big sought
+my christmas
+balbo home
+a dreas women
+keep
+
+###### 85
+Epoch 1/1
+40s - loss: 1.1391
+
+----- Generating with diversity 0.2 seed: "f you
+love"
+f you
+love is a love me
+love is a love of love
+stand by the river
+make a girl
+be the red again
+moonsay to be m
+----- Generating with diversity 0.5 seed: "f you
+love"
+f you
+love song
+love in the sky
+dellon
+makin  the parade
+visting the pun
+the fight for you
+man of my heart to 
+----- Generating with diversity 1.0 seed: "f you
+love"
+f you
+love sattare sloke my chai
+midnight truck
+the game a girl
+will lett that time
+rituc 
+i can t
+interie
+str
+----- Generating with diversity 1.2 seed: "f you
+love"
+f you
+love gol chance
+a llow alone
+echos of love  you sing
+i ve hust preturem
+ras sout frum black
+in reconded 
+
+###### 86
+Epoch 1/1
+40s - loss: 1.1372
+
+----- Generating with diversity 0.2 seed: " ninja
+all"
+ ninja
+all the line
+some subraction
+standing on the streets
+make up on the world
+devil will the beat it had to
+----- Generating with diversity 0.5 seed: " ninja
+all"
+ ninja
+all the sun
+long to me
+the last child
+santarem
+brave is a child
+i m do you wouldng kind
+where the world
+----- Generating with diversity 1.0 seed: " ninja
+all"
+ ninja
+all you goodbye
+i wister sandy bottomoa
+love start
+poorator
+going yourself s god
+car she
+the don t sunn
+----- Generating with diversity 1.2 seed: " ninja
+all"
+ ninja
+all ain yca  
+woman boot
+say doin  me silence
+memoratians
+man conshriotiones on man
+overky what i mad f
+
+###### 87
+Epoch 1/1
+40s - loss: 1.1354
+
+----- Generating with diversity 0.2 seed: " blues is "
+ blues is a lovers
+day in the momice
+i don t know you want to be with you
+she s got the world
+i m a song
+don t
+----- Generating with diversity 0.5 seed: " blues is "
+ blues is a long
+in the real
+coming the santar  burning day
+i m going to the phare
+christmas talk away
+don t m
+----- Generating with diversity 1.0 seed: " blues is "
+ blues is not e minuther
+all the old val and the darch on
+eaty ray and thanderlor
+i don t dance
+all the rose
+l
+----- Generating with diversity 1.2 seed: " blues is "
+ blues is one
+the ballap
+that us archoisemoving
+ladyvet
+run you bire
+lat my brothers jones
+in girls
+for may  b
+
+###### 88
+Epoch 1/1
+40s - loss: 1.1356
+
+----- Generating with diversity 0.2 seed: "amerigo
+to"
+amerigo
+touch my town on the world
+don t get around
+farewell
+when i hear me a love
+somebody s a chance
+summer 
+----- Generating with diversity 0.5 seed: "amerigo
+to"
+amerigo
+to say goodbye s start
+here that way wat ton the day
+long time cate
+sleeping second
+can teel now
+don t
+----- Generating with diversity 1.0 seed: "amerigo
+to"
+amerigo
+toxing
+like a party wartrors
+potson the times
+great divatenter day
+if i she shing
+grievowive
+sad hume
+
+----- Generating with diversity 1.2 seed: "amerigo
+to"
+amerigo
+to whood woman
+perfect s ded
+i alive
+habo ra fow yalizzkivning
+daddy star foronting where you keep me 
+
+###### 89
+Epoch 1/1
+40s - loss: 1.1345
+
+----- Generating with diversity 0.2 seed: "eserve you"
+eserve you said
+fade  do you love
+the stars in the sky
+demonaday love
+i don t know
+refulf teardes  let it snow
+----- Generating with diversity 0.5 seed: "eserve you"
+eserve you are you arotelle
+can the house
+i want me on the world
+i got i sail
+fool hop and more that s red lig
+----- Generating with diversity 1.0 seed: "eserve you"
+eserve young
+every new fare
+a broken prem
+wound you do
+simple yeven
+let it go 
+brue cry  california
+to shous i
+----- Generating with diversity 1.2 seed: "eserve you"
+eserve you
+pastying as blors
+undivaid
+gimme kiss
+crablin  today
+um tony
+dention for down
+sanny dayi   ob signt
+
+###### 90
+Epoch 1/1
+40s - loss: 1.1329
+
+----- Generating with diversity 0.2 seed: "old song a"
+old song again to lost
+day in the sun
+the right of love
+hold on
+cry me to the first
+anything you are
+sand of t
+----- Generating with diversity 0.5 seed: "old song a"
+old song again to say
+girl in turn
+the find you
+i m the man i am
+thiseed in the night
+a baby bear
+piggo
+i ll n
+----- Generating with diversity 1.0 seed: "old song a"
+old song and snow
+scark in the morning
+erdaiter
+sweet jention
+don t give your here
+knock ocide toskell
+bagefie
+----- Generating with diversity 1.2 seed: "old song a"
+old song away
+pyaruror of the sensination and
+drift witetjparkar
+ - coling run
+out of travolite sweeth 
+lady g
+
+###### 91
+Epoch 1/1
+40s - loss: 1.1335
+
+----- Generating with diversity 0.2 seed: "sky
+now an"
+sky
+now and from me
+he world home
+one more time
+metter money
+straight of metheres
+if you let me
+it s all out o
+----- Generating with diversity 0.5 seed: "sky
+now an"
+sky
+now and paint
+crazy man
+do it be we dream
+come to the heart
+cold come back
+crazy and hard to me
+cold words
+----- Generating with diversity 1.0 seed: "sky
+now an"
+sky
+now and froentin  cree-six
+eatless mewhy
+babys
+get a snow
+eye on tonire
+flying the fast
+mang stay
+still ma
+----- Generating with diversity 1.2 seed: "sky
+now an"
+sky
+now and dare
+anymare
+put on  sachilus juin
+sym acouls her be mydey for evitadenter
+you don t tore all
+spie
+
+###### 92
+Epoch 1/1
+40s - loss: 1.1318
+
+----- Generating with diversity 0.2 seed: "
+do you kn"
+
+do you know 
+christmas in other star
+good time of a dream
+come on baby baby world
+home  love to em love me ma
+----- Generating with diversity 0.5 seed: "
+do you kn"
+
+do you know my baby
+pricondeyed to my eyes
+all the way
+what i want to be with you
+change for the rose
+don t b
+----- Generating with diversity 1.0 seed: "
+do you kn"
+
+do you know
+bring my or holder
+block all
+ugalancher
+expecer love
+mornin 
+the change
+cross
+i thurps by
+lenoge 
+----- Generating with diversity 1.2 seed: "
+do you kn"
+
+do you know maken
+love run so cry
+golds good
+raption looking of hands
+thurica decoilin
+brenz
+over an my tar u
+
+###### 93
+Epoch 1/1
+40s - loss: 1.1311
+
+----- Generating with diversity 0.2 seed: "never
+divi"
+never
+divid of no me
+don t get around my love
+i am the chanced of dreams
+i don t want to be will
+star back
+wha
+----- Generating with diversity 0.5 seed: "never
+divi"
+never
+divid of no life
+let it halls in love
+breakago
+stings de sweet your soul ritute
+sad not be the sun
+the c
+----- Generating with diversity 1.0 seed: "never
+divi"
+never
+divid cals
+boys in recrysting true holly
+down what loves me
+it s it
+sink there
+everyday
+so vace long
+cra
+----- Generating with diversity 1.2 seed: "never
+divi"
+never
+divid balk
+thank
+what not lave
+world sugver ghase wall kill dollar 
+difference
+it foreven
+wwalms it s ov
+
+###### 94
+Epoch 1/1
+40s - loss: 1.1289
+
+----- Generating with diversity 0.2 seed: "r
+signed  "
+r
+signed  s song
+the stinge  want to be with you
+i m all the way
+all i live
+stand builer
+angels
+all i do  i al
+----- Generating with diversity 0.5 seed: "r
+signed  "
+r
+signed  rearything s my life
+the way
+coming away
+bounchition
+any gotter 
+on the boom
+where on the world
+i ca
+----- Generating with diversity 1.0 seed: "r
+signed  "
+r
+signed  parsongide
+flawrms in the road tongerf
+i m reavo  part cryan u black with you
+a band girl
+the left
+o
+----- Generating with diversity 1.2 seed: "r
+signed  "
+r
+signed  man one
+i don t can
+saftain  and yestole
+amil chrasmiammor
+life as your heart
+shawhey bullet the wit
+
+###### 95
+Epoch 1/1
+40s - loss: 1.1274
+
+----- Generating with diversity 0.2 seed: " i call de"
+ i call dead shade
+i ll be there
+the woman
+no long way to be your man
+mad can you for love
+the thee  blues
+bab
+----- Generating with diversity 0.5 seed: " i call de"
+ i call devode
+said to the blues
+the night baby
+day to you a lonely we do
+don t go for my heart
+diamine 
+all t
+----- Generating with diversity 1.0 seed: " i call de"
+ i call dead now
+helpless
+new year
+reviluth
+what a bad boy
+chucw
+sweet and didn agai 
+nobody good life
+baby fl
+----- Generating with diversity 1.2 seed: " i call de"
+ i call devace
+ravelice
+that s my hurt
+ballad of the blues
+pated christmas
+stonelers  i call love away
+in my b
+
+###### 96
+Epoch 1/1
+40s - loss: 1.1254
+
+----- Generating with diversity 0.2 seed: "hy we thug"
+hy we thuggles
+and a water the love
+i m gonna canfes
+the way is all the pose
+some s nothing s so long
+i want t
+----- Generating with diversity 0.5 seed: "hy we thug"
+hy we thuggly running
+summer one
+day tonight
+i want to be wild love you   
+rock  n gol the morning of the blac
+----- Generating with diversity 1.0 seed: "hy we thug"
+hy we thug 
+dasted of you
+rush wit
+without you
+jenn andmy
+hotel
+the wait
+mosey paper
+trose shoterf i m 
+new yo
+----- Generating with diversity 1.2 seed: "hy we thug"
+hy we thuggle
+feeling for dripserica
+here loved
+utlamm japer
+in the monic
+insana
+shape
+moon i love you
+remembe
+
+###### 97
+Epoch 1/1
+40s - loss: 1.1248
+
+----- Generating with diversity 0.2 seed: "remember m"
+remember me
+stand be your love
+if you re someon a sunshine
+i ll be there
+sunshine with me
+can you hear me
+i ll
+----- Generating with diversity 0.5 seed: "remember m"
+remember me  i alk a thing s rub
+how i mish baby
+goodbye love
+i m not fash
+only gease
+make it over
+goin  on yo
+----- Generating with diversity 1.0 seed: "remember m"
+remember make 
+lay i go
+m agon and dreams
+22 glotta get
+hay it on fun
+that s the undergirst of the highway
+the
+----- Generating with diversity 1.2 seed: "remember m"
+remember m fly the wisher ad
+pled
+i alk the san
+mystimit end and the rag gottan
+deser on
+it s only up  pruise 
+
+###### 98
+Epoch 1/1
+40s - loss: 1.1244
+
+----- Generating with diversity 0.2 seed: "  goode
+lo"
+  goode
+look and of the lady
+dance
+baby city
+love is the light
+i wanna be your way
+the way i do
+say goodbye
+a 
+----- Generating with diversity 0.5 seed: "  goode
+lo"
+  goode
+look me what a broken of where the eyes
+lonesome love song
+let it go
+m got it been my everything i mid
+----- Generating with diversity 1.0 seed: "  goode
+lo"
+  goode
+loro
+blues
+listen up
+big
+the gothart
+die
+somewhere
+over
+i adist
+here
+christias coffilina
+pescagia
+sann
+----- Generating with diversity 1.2 seed: "  goode
+lo"
+  goode
+lomis nesas
+body rquity
+as from lightnence to do
+plador addesties
+bothon mwreat
+look fightride
+life in
+
+###### 99
+Epoch 1/1
+40s - loss: 1.1225
+
+----- Generating with diversity 0.2 seed: " i look in"
+ i look intirith
+cry to you
+the little trave it shop
+good time
+i m a sonnive shell
+carales  the little today
+i
+----- Generating with diversity 0.5 seed: " i look in"
+ i look into myder i m anya breath
+world in my mind
+can t be there
+i don t want for love
+man of the god
+ladion
+----- Generating with diversity 1.0 seed: " i look in"
+ i look inever
+peaca it
+trills of now
+don t know fou blues
+mean a broken
+gone the mirrsiis re good
+foriver urd
+----- Generating with diversity 1.2 seed: " i look in"
+ i look into your dinam
+gangwess cruel wall skilan wishoos
+intationa
+i live
+ain w hous de amonight to sader
+pl###### INFERENCE ######
+
+girl burner
+lose you ll be your walls again
+money s the night
+that s my me
+i don t know you re real thing
+ain t goodgy fat father when long love
+i will from you
+there s bettared of a tarkelf
+crazy
+crucks art but me
+baby came it
+i wonder to chisemmon  things that you love
+i don t want to be when it out with mache rainin  for me
+fight free
+be love not one
+grand a star
+good tommm-hous
+the hardent dangers children
+life
+heart of heart
+house of the woman in the world
+dare for the vitiond by
+now to be love
+lonely more
+thanker of heart
+dangeration
+i will dived and ride
+sympers rag rainwin fine
+close
+nighty
+lost is what i don t want to get me
+better than christmas
+day
+move me to you
+living goes  bye now
+solder and born
+my nexo girl aleaster
+some monkey
+the one man s 
+saturday named
+worthed to the cridd
+i d  all no mo
+the gypsaw  
+dirt
+give it up
+the christmas
+dream away
+breatha
+bring it up
+you re no not fruio
+back to the sirnegqulue
+the rolles of your needs
+devil
+breakagha young
+one
+back to hi
